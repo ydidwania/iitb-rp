@@ -2411,20 +2411,28 @@ Cover
 -------------------------------------------------------- */
 .speaker_box {
   position: relative;
+  height: 100%;
   overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;  
 }
 .speaker_box .speaker_img {
+  height: 100%;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 .speaker_box .speaker_img img {
-  width: 100%;
+  height: 100%;
+  max-width: auto;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 .speaker_box .speaker_img .info_box {
   position: absolute;
-  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
   background-color: #18181c;
   padding: 10px 30px;
   -webkit-transition: all ease-in-out 0.4s;
@@ -2472,7 +2480,8 @@ Cover
   background-color: #f50136;
 }
 .speaker_box:hover .speaker_img img {
-  width: 100%;
+  height: 100%;
+  max-width: auto;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all ease-in-out 0.4s;
