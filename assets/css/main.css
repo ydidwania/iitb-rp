@@ -2032,8 +2032,8 @@ Cover
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
   opacity: 0;
   text-transform: uppercase;
-  font-size: 90px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 500;
   line-height: 1.1;
   color: #f50136;
   -webkit-transform: translateY(20px);
