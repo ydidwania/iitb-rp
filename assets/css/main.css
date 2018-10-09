@@ -1705,7 +1705,7 @@ header li ul.sub_menu li a {
   display: block;
   margin-left: 0;
   line-height: 22px;
-  word-break: break-word;
+  word-break: normal;
 }
 header li ul.sub_menu li a:hover {
   color: #ffffff !important;
@@ -1996,7 +1996,7 @@ Cover
   display: block;
   position: relative;
   list-style: none;
-  word-break: break-all;
+  word-break: normal;
 }
 .cover_slider .slider-content-center {
   max-width: 800px;
@@ -2889,7 +2889,7 @@ Cover
   color: #f50136;
 }
 .blog_card .blog_box_data .blog_word {
-  word-break: break-all;
+  word-break: normal;
 }
 .blog_card .blog_box_data .readmore_btn {
   font-size: 12px;
