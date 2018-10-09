@@ -1640,6 +1640,9 @@ header {
 }
 header .menu {
   position: relative;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 header .logo {
   padding-top: 0;
@@ -1656,10 +1659,11 @@ header .logo img {
   margin-right: 3px;
 }
 header .logo2 img {
-  float: left;
-  max-width: 100px;
-  margin-right: 3px;
+  float: right;
+  max-width: 180px;
+  margin-left: 3px;
 }
+
 header ul.menu li a.nav-link {
   padding: 20px 12px !important;
   font-size: 12px;
