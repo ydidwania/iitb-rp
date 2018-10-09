@@ -2046,7 +2046,7 @@ Cover
   font-weight: 500;
   line-height: 1.1;
   /* color: #f50136; */
-  color: yellow;
+  color: white;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
   -webkit-transition: all 0.4s 600ms ease-in-out;
@@ -2284,17 +2284,17 @@ Cover
 
 @media (max-width: 767px) {
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
-    font-size: 18px;
+    font-size: 10px;
   }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
-    font-size: 46px;
+    font-size: 25px;
   }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
-    font-size: 14px;
+    font-size: 8px;
   }
 
   .breadcrumbs ul {
-    padding: 5px 30px;
+    padding: 3px 18px;
   }
 }
 /*  ----------------------------------------------------
