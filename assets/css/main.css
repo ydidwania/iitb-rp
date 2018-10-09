@@ -1645,9 +1645,21 @@ header .logo {
   padding-top: 0;
   padding-bottom: 0;
 }
+header .logo2 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 header .logo img {
   float: left;
+  height: 100%;
   max-width: 180px;
+  margin-right: 3px;
+}
+header .logo2 img {
+  float: left;
+  height: 100%;
+  max-width: 100px;
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
