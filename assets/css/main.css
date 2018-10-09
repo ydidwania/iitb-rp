@@ -1652,13 +1652,11 @@ header .logo2 {
 
 header .logo img {
   float: left;
-  height: 100%;
   max-width: 180px;
   margin-right: 3px;
 }
 header .logo2 img {
   float: left;
-  height: 100%;
   max-width: 100px;
   margin-right: 3px;
 }
