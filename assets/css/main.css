@@ -79,7 +79,8 @@ p {
   margin: 0 0 15px;
   line-height: 24px;
   font-weight: 400;
-  color: #838383;
+  /* color: #838383; */
+  color: black;
 }
 p:last-child {
   margin-bottom: 0;
@@ -2419,7 +2420,8 @@ Cover
 }
 .icon_box_two .content p {
   font-weight: 500;
-  color: #838383;
+  /* color: #838383; */
+  color: black;
 }
 
 /*  ----------------------------------------------------
