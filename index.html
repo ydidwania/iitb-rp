@@ -51,7 +51,18 @@
         } // End if
       });
     });
+
+    $(document).ready(function() {
+        var heights = $(".row .col-md-3").map(function() {
+            return $(this).height();
+        }).get(),
+
+        maxHeight = Math.max.apply(null, heights);
+
+        $(".row .col-md-3").height(maxHeight);
+    });
     </script>
+    
     <base target="_blank">
 </head>
 <body>
@@ -448,8 +459,8 @@
                 </div>
                 </a>
             </div>
-
         </div>
+
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <a href="https://www.cse.iitb.ac.in/~sunita/">
@@ -463,14 +474,26 @@
                 </div>
             </div>
         </div>
-    <!-- 
+    
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <img src="assets/img/speakers/Dr. Harshad Khadilkar_TCS Research_Speaker_Prof. Shivaram session.jpg" alt="speaker name">
                     <div class="info_box">
-                        <h5 class="name">Jessica Black</h5>
-                        <p class="position">CEO Company</p>
+                        <h5 class="name">Dr. Harshad Khadilkar</h5>
+                        <p class="position">TCS Research</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/Prof. Amit Sethi_Chair Machine Perception_Technical session_1.jpg" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Amit Sethi</h5>
+                        <p class="position">Department of EE, IIT Bombay</p>
                     </div>
                 </div>
             </div>
@@ -478,10 +501,10 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s6.png" alt="speaker name">
+                    <img src="assets/img/speakers/Prof. Ganesh Ramakrishnan_Chair Language _ Text_Technical Session.jpg" alt="speaker name">
                     <div class="info_box">
-                        <h5 class="name">Patricia Stone</h5>
-                        <p class="position">CEO Company</p>
+                        <h5 class="name">Ganesh Ramakrishnan</h5>
+                        <p class="position">Department of CSE, IIT Bombay</p>
                     </div>
                 </div>
             </div>
@@ -489,25 +512,25 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <img src="assets/img/speakers/Prof. Manjesh Hanawal_IEOR_Speaker_Prof. Shivaram session.jpg" alt="speaker name">
                     <div class="info_box">
-                        <h5 class="name">Duncan Stan</h5>
-                        <p class="position">CEO Company</p>
+                        <h5 class="name">Manjesh Hanawal</h5>
+                        <p class="position">IEOR, IIT Bombay</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/speakers/s8.png" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">Patricia Stone</h5>
-                        <p class="position">CEO Company</p>
+                <div class="speaker_box">
+                    <div class="speaker_img">
+                        <img src="assets/img/speakers/Prof. Manoj Gopalakrishnan_Chair Predictive Analysis_Technical session.jpg" alt="speaker name">
+                        <div class="info_box">
+                            <h5 class="name">Manoj Gopalakrishnan</h5>
+                            <p class="position">Department of EE, IIT Bombay</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
     </div>
 </section>
 <!--speaker section end -->
@@ -517,7 +540,7 @@
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
-               our Panelists
+               our panelists
             </h3>
         </div>
     </div>
@@ -549,20 +572,6 @@
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/panelists/Prof. Umesh Bellur_Panelist.jpg" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">Prof. Umesh Bellur</h5>
-                        <p class="position">Professor-In-Charge, Society for Innovation and Entrepreneurship, SINE</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="row justify-content-center no-gutters">
-        <div class="col-md-3 col-sm-6">
             <div class="speaker_box" style="margin">
                 <div class="speaker_img">
                     <img src="assets/img/panelists/Dr. Nitin Kareer_Panelist.jpg" alt="speaker name">
@@ -573,6 +582,31 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/panelists/Prof. Umesh Bellur_Panelist.jpg" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Prof. Umesh Bellur</h5>
+                        <p class="position">Professor-In-Charge, Society for Innovation and Entrepreneurship, SINE</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- </div>
+    <br>
+    <div class="row justify-content-center no-gutters"> -->
+        <!-- <div class="col-md-3 col-sm-6">
+            <div class="speaker_box" style="margin">
+                <div class="speaker_img">
+                    <img src="assets/img/panelists/Dr. Nitin Kareer_Panelist.jpg" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Dr. Nitin Kareer</h5>
+                        <p class="position">Principal Secretary, Urban Development, Government of Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
@@ -764,7 +798,7 @@ price section end -->
 brands section end-->
 
 <!--contact section -->
-<section id="contact" class="bg-img pt100 pt100 pb100" style="background-image: url('assets/img/bg/bg.jpg');">
+<section id="contact" class="bg-img pt100" style="background-image: url('assets/img/bg/bg.jpg');">
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
