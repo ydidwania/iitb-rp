@@ -53,7 +53,8 @@
     });
 
     $(document).ready(function() {
-        var heights = $(".row .col-md-3").map(function() {
+        var heights = $(".speaker-div .col-md-3").map(function() {
+            console.log(heights);
             return $(this).height();
         }).get(),
 
@@ -192,10 +193,10 @@
 <!--cover section slider end -->
 
 <!--event info -->
-<section class="pt100 pb100">
+<section class="pt70 pb70">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-6 col-md-3  ">
+            <div class="col-6 col-md-4 ">
                 <div class="icon_box_two">
                     <i class="ion-ios-calendar-outline"></i>
                     <div class="content">
@@ -209,7 +210,7 @@
                 </div>
             </div>
 
-            <div class="col-6 col-md-3  ">
+            <div class="col-6 col-md-4  ">
                 <a href="https://goo.gl/maps/KsaMvSexepN2" target="_blank"><div class="icon_box_two">
                     <i class="ion-ios-location-outline"></i>
                     <div class="content">
@@ -238,7 +239,7 @@
                 </div>
             </div> -->
 
-            <div class="col-6 col-md-3  ">
+            <div class="col-6 col-md-4  ">
                 <div class="icon_box_two">
                     <i class="ion-ios-pricetag-outline"></i>
                     <div class="content">
@@ -436,7 +437,7 @@
             </h3>
         </div>
     </div>
-    <div class="row justify-content-center no-gutters">
+    <div class="speaker-div row justify-content-center no-gutters">
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
@@ -548,7 +549,7 @@
 <!--speaker section end -->
 
 <!--paanelist section-->
-<section id="panelists" class="pt100 pb100">
+<section id="panelists" class="">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
@@ -556,7 +557,7 @@
             </h3>
         </div>
     </div>
-    <div class="row justify-content-center no-gutters">
+    <div class="speaker-div row justify-content-center no-gutters">
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <a href="https://www.ee.iitb.ac.in/wiki/faculty/sganguly">
