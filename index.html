@@ -27,41 +27,13 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
+    // $(document).ready(function(){
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+    // });
 
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
+    // $(document).ready(function() {
        
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-
-    $(document).ready(function() {
-        var heights = $(".speaker-div .col-md-3").map(function() {
-            console.log(heights);
-            return $(this).height();
-        }).get(),
-
-        maxHeight = Math.max.apply(null, heights);
-
-        $(".row .col-md-3").height(maxHeight);
-    });
+    // });
     </script>
     
     <base target="_blank">
@@ -378,10 +350,11 @@
                 <div class="icon_box_one">
                     <i class="lnr lnr-clock"></i>
                     <div class="content">
-                        <h4>Predictive Analysis</h4>
+                        <h4>Predictive Analytics</h4>
                         <p>
                                 Chair - <a href="https://www.ee.iitb.ac.in/~manojg/">Prof. Manoj Gopalkrishnan, Department of EE, IIT Bombay</a>
                         </p>
+                        <a href="assets/pdf/Predictive Analytics_Prof. Manoj Gopalkrishnan.pdf">read more</a>
                     </div>
                 </div>
             </div>
@@ -472,8 +445,8 @@
                         <h5 class="name">Prof. Sunita Sarawagi</h5>
                         <p class="position">Department of CSE, IIT Bombay</p>
                     </div>
-                </a>
                 </div>
+                </a>
             </div>
         </div>
     
@@ -549,7 +522,7 @@
 <!--speaker section end -->
 
 <!--paanelist section-->
-<section id="panelists" class="">
+<section id="panelists" class="pb100">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
