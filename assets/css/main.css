@@ -2357,7 +2357,7 @@ Cover
   color: #f50136;
   font-size: 14px;
   font-weight: 600;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
