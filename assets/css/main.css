@@ -2286,7 +2286,7 @@ Cover
   font-weight: 600;
   color: #f50136;
 }
-@media screen and(max-width: 970px) {
+@media screen and (max-width: 970px) {
   .speaker_box .speaker_img .info_box .name {
     font-size: 10px;
   }
